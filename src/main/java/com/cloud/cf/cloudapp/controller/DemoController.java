@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @RequestMapping(path = "/hello", method = RequestMethod.GET)
     public String sayHello() {
-        return "Hello From Saurabh";
+        return "Hello From CloudFoundry";
     }
 }
